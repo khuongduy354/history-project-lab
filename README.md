@@ -8,6 +8,12 @@ Trải nghiệm kể chuyện tương tác lấy cảm hứng từ game FMV: ng�
 
 Đây là hướng người làm đồ án nêu ra, chưa phải đặc tả sản phẩm đã khóa. **Chưa có bằng chứng chốt Điện Biên Phủ**: câu “Chốt đbp r à” là câu hỏi. Engine, chiến dịch, phạm vi chính tuyến và deadline vẫn chưa xác nhận.
 
+## Inspiration
+
+[Xem video inspiration: roadtoempress.mp4 trên Google Drive](https://drive.google.com/file/d/1fT0lHniwH5LmNIOwKp0cQ4Tj4FD0vYbI/view?usp=sharing)
+
+Video tham khảo do chủ dự án cung cấp. Đây là inspiration, không phải demo do dự án tạo ra hoặc nguồn kiểm chứng sự kiện lịch sử. Liên kết mở trình xem Google Drive; video chưa được sao chép vào repo.
+
 ## Có gì trong repo?
 
 | File | Nội dung |
@@ -34,4 +40,4 @@ Trải nghiệm kể chuyện tương tác lấy cảm hứng từ game FMV: ng�
 3. **Đề xuất**: cách tổ chức hoặc bước tiếp theo; chưa phải quyết định đã chốt.
 4. **Chưa rõ**: thiếu file, nguồn, quyết định hoặc dữ liệu kiểm chứng.
 
-Repo được tạo ở chế độ **Private**. Chưa thêm cộng tác viên, chưa triển khai website, chưa phát hành công khai và chưa chọn giấy phép tái sử dụng.
+Chưa thêm cộng tác viên, chưa triển khai website và chưa chọn giấy phép tái sử dụng.
