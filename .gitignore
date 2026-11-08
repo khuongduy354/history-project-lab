@@ -1,0 +1,11 @@
+# Không đưa thông tin đăng nhập hoặc file tạm vào hồ sơ dự án.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+*.tmp

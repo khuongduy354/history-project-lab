@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-08",
+  "project_name": "Đồ án lịch sử",
+  "repository": "https://github.com/khuongduy354/history-project-lab",
+  "visibility_at_creation": "private",
+  "archive_kind": "project_notes_and_experiment_inventory",
+  "runnable_build_in_repository": false,
+  "historical_campaign_confirmed": null,
+  "engine_confirmed": null,
+  "deadline_confirmed": null,
+  "design_direction": {
+    "interaction": "Choose an action, then watch the result; FMV-inspired",
+    "main_route": "Grounded in real history",
+    "source_priority": "Reliable sources detailed enough for a long sequence",
+    "visual_preference": "Moving top-down view",
+    "low_poly_3d": "Considered, not selected",
+    "portraits": "Occasional portraits; try crafted or coded production",
+    "secret_branches": "Proposed, content and unlock rules undefined"
+  },
+  "experiments": [
+    {"id": "EXP-001", "name": "Map and QR storytelling", "status": "prior_demo_recorded_bytes_not_available", "asset_filename": "demo_quet_qr_ban_do.mp4"},
+    {"id": "EXP-002", "name": "FMV-inspired action choices", "status": "user_concept_no_verified_build"},
+    {"id": "EXP-003", "name": "Demo 1 feedback", "status": "user_feedback_asset_not_identified"},
+    {"id": "EXP-004", "name": "Moving top-down and low-poly visuals", "status": "visual_direction_no_verified_artifact"},
+    {"id": "EXP-005", "name": "Crafted or coded portrait", "status": "requested_exploration_no_verified_artifact"}
+  ],
+  "assets": [
+    {
+      "filename": "demo_quet_qr_ban_do.mp4",
+      "in_repository": false,
+      "recorded_size_bytes": 433369,
+      "recorded_created_at": "2026-10-18T09:45:29Z",
+      "inspection_status": "not_reinspected",
+      "sha256": null,
+      "source_url": "https://chatgpt.com/c/6ad4910b-45e0-83ec-ae89-c05080f085e7?messageId=767f7949-3aa6-56c4-ae40-fbc78faa1f66"
+    }
+  ],
+  "verified_historical_sources": [],
+  "known_gaps": [
+    "Original QR video not available to copy",
+    "Demo 1 filename and URL unknown",
+    "Historical setting not finalized",
+    "No verified source-to-event mapping",
+    "No verified playable prototype or source code"
+  ]
+}
