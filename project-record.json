@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-11-08",
+  "demo_record_correction_date": "2026-11-12",
   "project_name": "Đồ án lịch sử",
   "repository": "https://github.com/khuongduy354/history-project-lab",
   "visibility_at_creation": "private",
@@ -22,7 +23,7 @@
     {"id": "EXP-001", "name": "Map and QR storytelling", "status": "prior_demo_recorded_bytes_not_available", "asset_filename": "demo_quet_qr_ban_do.mp4"},
     {"id": "EXP-002", "name": "FMV-inspired action choices", "status": "user_concept_no_verified_build"},
     {"id": "EXP-003", "name": "Demo 1 feedback", "status": "user_feedback_asset_not_identified"},
-    {"id": "EXP-004", "name": "Moving top-down and low-poly visuals", "status": "visual_direction_no_verified_artifact"},
+    {"id": "EXP-004", "name": "Moving top-down and low-poly visuals", "status": "prior_3d_video_demo_recorded_source_not_recovered", "engine_confirmed": null, "source_recovery_status": "cancelled_by_owner_2026_11_08", "video_reinspected": false, "source_reference": "SRC-004"},
     {"id": "EXP-005", "name": "Crafted or coded portrait", "status": "requested_exploration_no_verified_artifact"}
   ],
   "assets": [
@@ -42,6 +43,6 @@
     "Demo 1 filename and URL unknown",
     "Historical setting not finalized",
     "No verified source-to-event mapping",
-    "No verified playable prototype or source code"
+    "No verified playable prototype or source code in this repository; a prior 3D video demo was recorded, and source recovery was cancelled"
   ]
 }

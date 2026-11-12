@@ -18,7 +18,7 @@
 | --- | --- | --- |
 | “Demo 1” | Người dùng thích content, chưa thích art | File/URL, phiên bản, thời gian tạo, mô tả và source |
 | Top-down có chuyển động | Mong muốn trực tiếp của người dùng | Artifact chứng minh đã thực hiện |
-| 3D low-poly | Người dùng cân nhắc | Scene/model/source hoặc bản render cụ thể |
+| Video demo 3D Điện Biên Phủ trước đó | Trao đổi ngày 08/11/2026 ghi nhận demo đã tồn tại; trợ lý báo tìm được video | Byte video chưa được kiểm tra lại; project/source và engine chưa xác định. Việc tìm source cũ đã dừng theo yêu cầu |
 | Portrait craft/code | Người dùng hỏi muốn thử | Prototype, dữ liệu đầu vào, quyền dùng likeness và kết quả đánh giá |
 
 ## Chưa có trong repo

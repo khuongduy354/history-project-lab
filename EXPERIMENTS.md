@@ -33,7 +33,10 @@ Ngày đóng gói: 08/11/2026. Không dùng ngày đóng gói làm ngày thực 
 ## EXP-004 · Top-down chuyển động và 3D low-poly
 
 - **Bằng chứng:** mong muốn top-down có chuyển động; người dùng cân nhắc 3D low-poly.
-- **Tình trạng:** hướng thử hình ảnh, chưa có artifact được nhận diện và kiểm tra.
+- **Cập nhật hồ sơ ngày 08/11/2026:** chủ dự án nhắc lại cảnh Điện Biên Phủ 3D trước đó; trợ lý ghi nhận đã tìm được video demo, nhưng chưa tìm được project/source hoặc xác định engine. Không được ghi thành “chưa từng có demo”.
+- **Giới hạn:** byte video không được kiểm tra lại trong lần sửa tài liệu ngày 12/11/2026; chưa có source hoặc bản chạy trong repo. Cách gọi “code Godot” trong câu hỏi không đủ để xác nhận engine.
+- **Quyết định:** chủ dự án nói “vứt source cũ đi” ngày 08/11/2026; việc tìm source cũ đã dừng, không có thao tác xóa dữ liệu được ghi nhận. Không tự mở lại công việc khôi phục.
+- **Nguồn:** SRC-004 trong [SOURCES.md](SOURCES.md).
 - **Chưa có kết quả:** hiệu năng, độ rõ thông tin, thời gian sản xuất và khả năng mở rộng chưa được đo.
 
 ## EXP-005 · Portrait craft/code
