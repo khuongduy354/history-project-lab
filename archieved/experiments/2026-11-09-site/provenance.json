@@ -1,0 +1,620 @@
+{
+  "source": "Published Sites v12 repository",
+  "source_commit": "37841e04616ef3c3d54776fbe75879d1b13ac8e8",
+  "retrieved_at": "2026-11-12",
+  "hosted_url": "https://dien-bien-phu-khi-chua-biet-ket-qua.duy205365.chatgpt.site",
+  "copied_paths": [
+    "dist/",
+    "art-notes/"
+  ],
+  "excluded_paths": {
+    ".git/": "Repository metadata; not source content",
+    ".openai/hosting.json": "Provider hosting configuration; not needed to run archive"
+  },
+  "extracted_godot_source": "godot/ham-rong/",
+  "godot_zip": "dist/ham-rong/source.zip",
+  "files": [
+    {
+      "path": "dist/arcade.css",
+      "size_bytes": 4856,
+      "sha256": "58c11d1084fa2d9e55169767681cf049e5da5a05c7e422bbeb57b4d88180063c"
+    },
+    {
+      "path": "dist/archive.json",
+      "size_bytes": 1447,
+      "sha256": "77b3ddf8ac01dab2d7c46481e848b2c02df374575c7108d08b135ece385253ba"
+    },
+    {
+      "path": "dist/art/lane-0.webp",
+      "size_bytes": 85036,
+      "sha256": "cfc4e41f760961323f40329722e841b851c03656a31fa2fab57da9246a6b7f8f"
+    },
+    {
+      "path": "dist/art/lane-1.webp",
+      "size_bytes": 86044,
+      "sha256": "afdc5b337e0f50449fe127f6daf343dcf2d96662a53ec28383623d124b597516"
+    },
+    {
+      "path": "dist/art/lane-2.webp",
+      "size_bytes": 97846,
+      "sha256": "2607619286f114c54ee55eff8a485eab9e5f30fe2d93e60f6c7bec22fe9dff03"
+    },
+    {
+      "path": "dist/art/lane-3.webp",
+      "size_bytes": 88470,
+      "sha256": "0e6d0b45820cda1230ddd874a67cd7ac89ce72796cb52c2791304f5ac6670d19"
+    },
+    {
+      "path": "dist/art/pass-0.webp",
+      "size_bytes": 169110,
+      "sha256": "f09012c5d728060f0e95009aad84880cab6007e2a1a363672c102dde7e36b6f5"
+    },
+    {
+      "path": "dist/art/pass-1.webp",
+      "size_bytes": 165538,
+      "sha256": "29b07173e2387432d45abfabf2240683bee29c67e0254e153e559e858622e17e"
+    },
+    {
+      "path": "dist/art/pass-2.webp",
+      "size_bytes": 159594,
+      "sha256": "b40245eb18393ef8d9a23e26c948b7dc65262766453df7b3cc0e22db67044992"
+    },
+    {
+      "path": "dist/art/pass-3.webp",
+      "size_bytes": 168656,
+      "sha256": "56ae53c67b72953f341318223efeca1346d1273a881948952923858900ac671f"
+    },
+    {
+      "path": "dist/art/unit-0.webp",
+      "size_bytes": 44546,
+      "sha256": "7da11a6e74d66917ad7daf7e24283611d71ddae069d380fc629713e7340a0bea"
+    },
+    {
+      "path": "dist/art/unit-1.webp",
+      "size_bytes": 30620,
+      "sha256": "c1cdee9db3b5fbb39107c90473b2b48f03b6680c24e3c49498c432578cd1deb6"
+    },
+    {
+      "path": "dist/art/unit-2.webp",
+      "size_bytes": 40542,
+      "sha256": "ac57f9b0ee92eb62cdf6e2e14066509849cc54fb10a63bfbe5f9607103e82578"
+    },
+    {
+      "path": "dist/art/unit-3.webp",
+      "size_bytes": 41770,
+      "sha256": "369e33fa82ff2771829c66aa29451f5f45249861e9f5e3e28614202bf4056b3e"
+    },
+    {
+      "path": "dist/ban-keo.svg",
+      "size_bytes": 1088,
+      "sha256": "c1929f035a3dd7719d8748f6a3870a8a7f60f02240b7d7f4083ed431caa356ec"
+    },
+    {
+      "path": "dist/boi-canh.svg",
+      "size_bytes": 2401,
+      "sha256": "a66572514d29c7420dfcd90cd9b9be4443f1964199e75521786c19ccef9eb30f"
+    },
+    {
+      "path": "dist/chien-dich.html",
+      "size_bytes": 1081,
+      "sha256": "9ed680a0c1ed6d12ed9486ee4300d25f63a2308152964691b2b0648021722018"
+    },
+    {
+      "path": "dist/cho-gao.html",
+      "size_bytes": 4925,
+      "sha256": "7754238a6d302688d81abe961ee379a5ee56b2c83168517b77b61b1ff65eadda"
+    },
+    {
+      "path": "dist/chuyen-hang.js",
+      "size_bytes": 2865,
+      "sha256": "d7444d61923470ce5def60f054fa5649b981bef451876a3ed6a1d924516c2d48"
+    },
+    {
+      "path": "dist/decision-tree.js",
+      "size_bytes": 5327,
+      "sha256": "ec5bfd9cdc9cf241f76a744ea7aa0b582b698fcda5bd17a26fc4142bdd5fdef5"
+    },
+    {
+      "path": "dist/dien-bien-phu.html",
+      "size_bytes": 105456,
+      "sha256": "6d07f93e2a009f8e98feb74188c160b336ecd5e07886141f7713198e64714048"
+    },
+    {
+      "path": "dist/dien-bien-phu.json",
+      "size_bytes": 47587,
+      "sha256": "50ae28d895c58396cb8efbdb3fc3ba954d044f468b5ec51c9c1af2c40361882c"
+    },
+    {
+      "path": "dist/game.css",
+      "size_bytes": 5952,
+      "sha256": "ebf4556d38a1e48af81b4aaff0311c4c3846a63db743fde0d09904dccedd9780"
+    },
+    {
+      "path": "dist/game.js",
+      "size_bytes": 7047,
+      "sha256": "8f948cd9d5dcb68d8abc906a3c8ed120b7584548e84ed94ef00bb9863445fbb0"
+    },
+    {
+      "path": "dist/ham-rong/cover.webp",
+      "size_bytes": 79872,
+      "sha256": "2bd57383554f1cc7370df34f9084b2d84be93e8efe7fcc3b5e67a4a0f9b65a77"
+    },
+    {
+      "path": "dist/ham-rong/engine.bin",
+      "size_bytes": 9444665,
+      "sha256": "06299c292c0f235c8c2b63795bec6c7b1132409ccd265beffc355b8d06364754"
+    },
+    {
+      "path": "dist/ham-rong/fflate-LICENSE.txt",
+      "size_bytes": 1069,
+      "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243"
+    },
+    {
+      "path": "dist/ham-rong/fflate.min.js",
+      "size_bytes": 32665,
+      "sha256": "c3b34f2e9f5e74d4d7d64e01cac7a0c01954c6c406414d42185c7b53d6875ddf"
+    },
+    {
+      "path": "dist/ham-rong/history-project-lab.patch",
+      "size_bytes": 1118586,
+      "sha256": "56a7c3e95df6195533c3ccf6078f10f948477ef1f1f169e61ecad0c0efde5407"
+    },
+    {
+      "path": "dist/ham-rong/index.apple-touch-icon.png",
+      "size_bytes": 11952,
+      "sha256": "9b374ecbc8558f480421e646f38aaa8a69d5b1d65ff7b48d0735da214c46773a"
+    },
+    {
+      "path": "dist/ham-rong/index.audio.position.worklet.js",
+      "size_bytes": 3149,
+      "sha256": "347b512529c5dca302093f7b9de6d184dd09d10e9a6fba62cbab098a891b2368"
+    },
+    {
+      "path": "dist/ham-rong/index.audio.worklet.js",
+      "size_bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "path": "dist/ham-rong/index.html",
+      "size_bytes": 5390,
+      "sha256": "295a5c2577fc2bfdf60aefdb0dd2080f2d5341da36a1aab17b6dc4b51b244e3d"
+    },
+    {
+      "path": "dist/ham-rong/index.icon.png",
+      "size_bytes": 5702,
+      "sha256": "08808dd5397e9a502cb3624944151f87a9705b5b66b5c365c5ca4c6ab51525f5"
+    },
+    {
+      "path": "dist/ham-rong/index.js",
+      "size_bytes": 317746,
+      "sha256": "5e07e648fdc944626b3213d9c70a56fbde1786f6cc0b4d8c30bd11eee749b3a3"
+    },
+    {
+      "path": "dist/ham-rong/index.pck",
+      "size_bytes": 2024608,
+      "sha256": "389d328dced43e299160a9b3395f55f0006245fdfe36631dc33a2a44412f43a1"
+    },
+    {
+      "path": "dist/ham-rong/index.png",
+      "size_bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "path": "dist/ham-rong/source.zip",
+      "size_bytes": 836841,
+      "sha256": "6257b674fd4446c1a7d859a62cef36aeb7355577690825829a389cd7b43bf863"
+    },
+    {
+      "path": "dist/ham-rong/xe-tho.webp",
+      "size_bytes": 44546,
+      "sha256": "7da11a6e74d66917ad7daf7e24283611d71ddae069d380fc629713e7340a0bea"
+    },
+    {
+      "path": "dist/ham-rong.html",
+      "size_bytes": 4925,
+      "sha256": "7754238a6d302688d81abe961ee379a5ee56b2c83168517b77b61b1ff65eadda"
+    },
+    {
+      "path": "dist/index.html",
+      "size_bytes": 1045,
+      "sha256": "62dc185d1b11abbbd093f15f99aacbf429217237044bb7557034217ee56c186a"
+    },
+    {
+      "path": "dist/ky-su.css",
+      "size_bytes": 5696,
+      "sha256": "7f3bf666f5d596170690353b631fae0f3945c9f3b79c6a81c4c1c46b87618476"
+    },
+    {
+      "path": "dist/painted.js",
+      "size_bytes": 2709,
+      "sha256": "2521503f5a200c3def34a9560cd2e918b9f75ea75258becbde30cdb7767a17bf"
+    },
+    {
+      "path": "dist/pass3d.js",
+      "size_bytes": 14071,
+      "sha256": "2cc97470d9bcb33950ab31264502defc1152dafff96f7e5c3b20d259d1902af9"
+    },
+    {
+      "path": "dist/patterns.js",
+      "size_bytes": 1808,
+      "sha256": "3fc585a3f73f1d0ff05d289fe56e44e6c68fb8912975e1d0a17ef6677e718414"
+    },
+    {
+      "path": "dist/road.js",
+      "size_bytes": 12512,
+      "sha256": "5e226f3ab4833e7baf3911f4347cd1efac9875778eaca73ef1882187ff60b67b"
+    },
+    {
+      "path": "dist/van-tai-3d.html",
+      "size_bytes": 1045,
+      "sha256": "6c231f5e70433fa1e37654b713643d1b22141e5e36c5ce3c7a037da8799e5f57"
+    },
+    {
+      "path": "dist/van-tai.html",
+      "size_bytes": 1045,
+      "sha256": "62dc185d1b11abbbd093f15f99aacbf429217237044bb7557034217ee56c186a"
+    },
+    {
+      "path": "art-notes/actors.prompt.txt",
+      "size_bytes": 1500,
+      "sha256": "1cf5cc95af087e8970d497178b4f46ca7f41e07403f85384db4d03becd2247af"
+    },
+    {
+      "path": "art-notes/scene.json",
+      "size_bytes": 698,
+      "sha256": "44835cc5aaf98a2417e9ec48fcd15be93555e9565e27f6d7b6cd120d0d938058"
+    },
+    {
+      "path": "art-notes/terrain.prompt.txt",
+      "size_bytes": 1383,
+      "sha256": "f4b5908a67b2566066461889b5264a2f9acfe607a23055ecccf9560fd298e7e0"
+    }
+  ],
+  "extracted_source_files": [
+    {
+      "path": "godot/ham-rong/.gitignore",
+      "size_bytes": 15,
+      "sha256": "4f13d23298417ec81d5e5293ee042e87c77b751790640293aa67b8fddd52ba45"
+    },
+    {
+      "path": "godot/ham-rong/README.md",
+      "size_bytes": 1511,
+      "sha256": "2d16d8d0d0117f8b69f679102849882d257ca15853820e5e6f1c13b55ab80b34"
+    },
+    {
+      "path": "godot/ham-rong/Utility/bullet.gd",
+      "size_bytes": 912,
+      "sha256": "028027dc690b33237c6f2f569fc83c1dbf5086cc31aa749eeb0d936cc28cd6ff"
+    },
+    {
+      "path": "godot/ham-rong/Utility/bullet.gd.uid",
+      "size_bytes": 20,
+      "sha256": "314def9f7479b82b72df41b63a53e3697eebe9bf3ec61aab715b37cfc9df4329"
+    },
+    {
+      "path": "godot/ham-rong/Utility/enemy_bullet.tscn",
+      "size_bytes": 1598,
+      "sha256": "f3d9c303490e8a5513528ea4522160e5a2700ffcd8c75e4da8bc91d687fa280d"
+    },
+    {
+      "path": "godot/ham-rong/Utility/gun.gd",
+      "size_bytes": 862,
+      "sha256": "c29d8ad4b3d4de00fcd1b1741d62f9d42a1d236d0839729a1d0d1804960421c8"
+    },
+    {
+      "path": "godot/ham-rong/Utility/gun.gd.uid",
+      "size_bytes": 20,
+      "sha256": "ce9458ffaa313fc407c20327d78a67de847b408e30373e25a80948041863b24f"
+    },
+    {
+      "path": "godot/ham-rong/Utility/gun.tscn",
+      "size_bytes": 342,
+      "sha256": "ac67e798a746e12f713733dc7fa1d2ad15d81542cbb9b2d8b410bba369e3608d"
+    },
+    {
+      "path": "godot/ham-rong/Utility/player_bullet.tscn",
+      "size_bytes": 1607,
+      "sha256": "dfaee6e4b8c713d426be52d093cc488983c1fe3b08faf4793665e5722cf24d56"
+    },
+    {
+      "path": "godot/ham-rong/Utility/standard_light.tscn",
+      "size_bytes": 306,
+      "sha256": "7d6a5fa2cf0556b9b648c4834f56069f153876b4c8b83364eb61b9fc3656ae07"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/lane-0.webp",
+      "size_bytes": 85036,
+      "sha256": "cfc4e41f760961323f40329722e841b851c03656a31fa2fab57da9246a6b7f8f"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/lane-0.webp.import",
+      "size_bytes": 766,
+      "sha256": "33d2c860d61013d755d97e43db863d1ab422649ad0fd9aeef31d7f7c5d5425b4"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/lane-1.webp",
+      "size_bytes": 86044,
+      "sha256": "afdc5b337e0f50449fe127f6daf343dcf2d96662a53ec28383623d124b597516"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/lane-1.webp.import",
+      "size_bytes": 766,
+      "sha256": "d1102d34d8392f2590731149d18b8b81198bb353c78c8616666407285d3f39ae"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/lane-2.webp",
+      "size_bytes": 97846,
+      "sha256": "2607619286f114c54ee55eff8a485eab9e5f30fe2d93e60f6c7bec22fe9dff03"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/lane-2.webp.import",
+      "size_bytes": 766,
+      "sha256": "124b1423e00213cdf0eba31f050e776cf9957d7e2bb0d0ebd1ab1d1b3b19fb04"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/lane-3.webp",
+      "size_bytes": 88470,
+      "sha256": "0e6d0b45820cda1230ddd874a67cd7ac89ce72796cb52c2791304f5ac6670d19"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/lane-3.webp.import",
+      "size_bytes": 766,
+      "sha256": "912eb505e29a2219a0caecbccc9d9b08b2c8b80f6ca5a0fe75fe3c3d45488248"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/sources.json",
+      "size_bytes": 1447,
+      "sha256": "77b3ddf8ac01dab2d7c46481e848b2c02df374575c7108d08b135ece385253ba"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/unit-0.webp",
+      "size_bytes": 44546,
+      "sha256": "7da11a6e74d66917ad7daf7e24283611d71ddae069d380fc629713e7340a0bea"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/unit-0.webp.import",
+      "size_bytes": 766,
+      "sha256": "257f8267288e4f85f0aace8e830c2e18908cb703fa37f5e34c70ed40f6a18665"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/unit-1.webp",
+      "size_bytes": 30620,
+      "sha256": "c1cdee9db3b5fbb39107c90473b2b48f03b6680c24e3c49498c432578cd1deb6"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/unit-1.webp.import",
+      "size_bytes": 766,
+      "sha256": "5b9f9c82efc0a25a7f356ce43aa0567179ee340f06da468a4d220e29107b289f"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/unit-2.webp",
+      "size_bytes": 40542,
+      "sha256": "ac57f9b0ee92eb62cdf6e2e14066509849cc54fb10a63bfbe5f9607103e82578"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/unit-2.webp.import",
+      "size_bytes": 766,
+      "sha256": "9355eeaf9f2dc840a72bd1b5e180c8774963753bfc1ae13d799d8f0b26bb0a0f"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/unit-3.webp",
+      "size_bytes": 41770,
+      "sha256": "369e33fa82ff2771829c66aa29451f5f45249861e9f5e3e28614202bf4056b3e"
+    },
+    {
+      "path": "godot/ham-rong/art/convoy/unit-3.webp.import",
+      "size_bytes": 766,
+      "sha256": "d0cb1e1455aac0778edb93805090ff5a05c440cd3dd79605f547ebfb0194a91d"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/1.png",
+      "size_bytes": 53927,
+      "sha256": "abd1261eef80bb873322a8b8cafc533c4abd11e9b7bcbe286b5974249c2b0a80"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/1.png.import",
+      "size_bytes": 748,
+      "sha256": "136d405e40e61ec664fa0572aa8f8c7d70e62340660491f199ad8d7c4965a0de"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/Explosions/Super Pixel Effects Mini Pack 1/license.txt",
+      "size_bytes": 916,
+      "sha256": "e6dc6c965a376c69b9f6c94a9dbcc482cc4aafe1ce08259960edf5ac8fa1febb"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/Explosions/Super Pixel Effects Mini Pack 1/spritesheet/fx1_explosion_small_orange/spritesheet.png",
+      "size_bytes": 3984,
+      "sha256": "2765a3a0b3b1a365f2975ca73c89f1f11d50c7b70b42648727705404cd9ae0bf"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/Explosions/Super Pixel Effects Mini Pack 1/spritesheet/fx1_explosion_small_orange/spritesheet.png.import",
+      "size_bytes": 860,
+      "sha256": "3c96d0fe0d1d77fff44a752ad4935e60e3d1eb71788c70de09eb086111b96e49"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/Laser/light.png",
+      "size_bytes": 30802,
+      "sha256": "d2202758b113990248a26abfdfd614ebb79ff49cdb721608725ddc1fe349a359"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/Laser/light.png.import",
+      "size_bytes": 766,
+      "sha256": "7148828f31a247a404f6d44bbe5d9436e970d0775c84c7cc81b38fe645e36d5c"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/ice_particle_white.png",
+      "size_bytes": 478,
+      "sha256": "8f98b0d433e77c160d50740c8bdfbc27b2fa6ac7ed56a57d1fb09432afe92c9f"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/ice_particle_white.png.import",
+      "size_bytes": 799,
+      "sha256": "87bc4e1112dcd6db2737514151b2597e2e722c3cf4e227d8fe5b445288160145"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/muzzle.png",
+      "size_bytes": 57093,
+      "sha256": "1e55b959c859c002cde7f81e1acbc03ddbd59dd658e14f2b26fe83a87c594833"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/muzzle.png.import",
+      "size_bytes": 763,
+      "sha256": "424198c1cbc9e92885bd713f6ac3f49ae4315c8f88ed044aebd05d1c5cd8af6e"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/nPoQD5-removebg-preview.png",
+      "size_bytes": 93775,
+      "sha256": "cccf62d6e4e2da9e53ffb2df52bdcf8ee65260dcac95d44d244d82558083a047"
+    },
+    {
+      "path": "godot/ham-rong/assets/VFX/nPoQD5-removebg-preview.png.import",
+      "size_bytes": 814,
+      "sha256": "5b6390b2a59095974a26bc3b9578afd82a66f9e9d1e74885d3d375e4f3069d38"
+    },
+    {
+      "path": "godot/ham-rong/assets/audio/enemy/enemygun.mp3",
+      "size_bytes": 11565,
+      "sha256": "8794eb74b11b1799284fa0b3aaba8c118993ef6d4d20e25d4d60145ba7fcc034"
+    },
+    {
+      "path": "godot/ham-rong/assets/audio/enemy/enemygun.mp3.import",
+      "size_bytes": 372,
+      "sha256": "0c4a1dee89e73829552e38a2efeb34fb5f7d9e15262d4c174fc24e71d76d4f31"
+    },
+    {
+      "path": "godot/ham-rong/assets/audio/player/playergun.mp3",
+      "size_bytes": 38400,
+      "sha256": "265dfce8ea2f00d4d980307a87069cbed93cae2ba91186b20346373874019912"
+    },
+    {
+      "path": "godot/ham-rong/assets/audio/player/playergun.mp3.import",
+      "size_bytes": 376,
+      "sha256": "9aaf654762c562e619e826cdc106b788e0d71cfc8cc9ae9bd0d110e15db3b4dd"
+    },
+    {
+      "path": "godot/ham-rong/export_presets.cfg",
+      "size_bytes": 447,
+      "sha256": "830a59c976ddf64c3de85c4f7ef0184b66742fd588119e5b3a89ffc917fca165"
+    },
+    {
+      "path": "godot/ham-rong/flight/convoy.gd",
+      "size_bytes": 11998,
+      "sha256": "a9d9d7d6407a297ee03526d8c99fd84d036fe773bdaa1bc90dff24f65192f5a7"
+    },
+    {
+      "path": "godot/ham-rong/flight/convoy.gd.uid",
+      "size_bytes": 20,
+      "sha256": "e36f190a8ac36512db100c06852061579999a86906c1ff04e2d26367ce0c1886"
+    },
+    {
+      "path": "godot/ham-rong/flight/river.tscn",
+      "size_bytes": 163,
+      "sha256": "0ff35b7f9fa72b5f13fba6718458b50c5ac877bf128db06a283414f332fc386f"
+    },
+    {
+      "path": "godot/ham-rong/project.godot",
+      "size_bytes": 578,
+      "sha256": "f6879819116aa541e619bdf66f1e0fb086602417c2e5fa927445ef27c042ce74"
+    },
+    {
+      "path": "godot/ham-rong/tests/combat_smoke.gd",
+      "size_bytes": 1893,
+      "sha256": "c800e923a0a534bf833a50251d4443fd346ae69afafa464bc92c7f3811244e3a"
+    },
+    {
+      "path": "godot/ham-rong/tests/combat_smoke.gd.uid",
+      "size_bytes": 20,
+      "sha256": "f21efdc97ee252d28e1908ba4a6fe7df980ca90040b82f95bfde0dfea65b6679"
+    },
+    {
+      "path": "godot/ham-rong/vfx/Muzzle.gd",
+      "size_bytes": 348,
+      "sha256": "de77e3a554ef343cf0353358c63fecb9b4d041d74fa637508df92e6531ed9f56"
+    },
+    {
+      "path": "godot/ham-rong/vfx/Muzzle.gd.uid",
+      "size_bytes": 20,
+      "sha256": "70e7ae1d75066a4b59b0189467a924c13f9ce7ae5ddd624afab93b01569a665b"
+    },
+    {
+      "path": "godot/ham-rong/vfx/Muzzle.tscn",
+      "size_bytes": 1126,
+      "sha256": "b5b422b5ef6e25ec702c6bfdb3b508eea78c7ace995328aad5c83e85a9b78db0"
+    },
+    {
+      "path": "godot/ham-rong/vfx/ShakeCamera.gd",
+      "size_bytes": 677,
+      "sha256": "042d415983be70cef8a157d021da6af6b4eef3e1922ad1207ed9e901d2049a24"
+    },
+    {
+      "path": "godot/ham-rong/vfx/ShakeCamera.gd.uid",
+      "size_bytes": 20,
+      "sha256": "c1909724248f52e7d7bf1b94176318baee1bf57ec18229bdee8bb86b236d198d"
+    },
+    {
+      "path": "godot/ham-rong/vfx/ShakeCamera.tscn",
+      "size_bytes": 510,
+      "sha256": "525301da5ee9c2556429fbe80369054b1955566b3194cdd29d7cb8034958f2ee"
+    },
+    {
+      "path": "godot/ham-rong/vfx/bullet_impact.tscn",
+      "size_bytes": 895,
+      "sha256": "d73e627da5854bdc9c5279688fb0170d31fcc9c72a89deae57251f8ff774ea5c"
+    },
+    {
+      "path": "godot/ham-rong/vfx/explosion2.tscn",
+      "size_bytes": 1000,
+      "sha256": "d2ce9f82a339a2aab861a070d95384360329bab7eee827e8668b8cc142e87cf9"
+    },
+    {
+      "path": "godot/ham-rong/vfx/hit_particles.tscn",
+      "size_bytes": 1118,
+      "sha256": "07df8c8788c438d32483c1aa35e4b708bddae2eab09f64c88f873f6a2c62731b"
+    },
+    {
+      "path": "godot/ham-rong/vfx/trail.gd",
+      "size_bytes": 409,
+      "sha256": "f65bf9d43349f30a4835ff65b0157ae8c711ee95b1218161bce9dd6bfe1a1156"
+    },
+    {
+      "path": "godot/ham-rong/vfx/trail.gd.uid",
+      "size_bytes": 20,
+      "sha256": "2087b3f84eb007f773b9aa53e3a4edfff790b7a2edc308b78a69cfe60232b0e4"
+    },
+    {
+      "path": "godot/ham-rong/vfx/trail.tscn",
+      "size_bytes": 434,
+      "sha256": "ee4a1ff8f313436afec05fa8572c6899971d9d61ca5d2b026f88bf1987d3dc27"
+    },
+    {
+      "path": "godot/ham-rong/vfx/white.gdshader",
+      "size_bytes": 202,
+      "sha256": "b19df94bbb4bcef9286f80955d8fc61917b4f0b354e814a71211e7433902a0ee"
+    },
+    {
+      "path": "godot/ham-rong/vfx/white.gdshader.uid",
+      "size_bytes": 19,
+      "sha256": "09217065154004c3bef08d5ffb043452e8dc82bd472129677a04c7b4a8d2cbce"
+    },
+    {
+      "path": "godot/ham-rong/web/fflate-LICENSE.txt",
+      "size_bytes": 1069,
+      "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243"
+    },
+    {
+      "path": "godot/ham-rong/web/fflate.min.js",
+      "size_bytes": 32665,
+      "sha256": "c3b34f2e9f5e74d4d7d64e01cac7a0c01954c6c406414d42185c7b53d6875ddf"
+    },
+    {
+      "path": "godot/ham-rong/web/ham-rong.html",
+      "size_bytes": 4925,
+      "sha256": "7754238a6d302688d81abe961ee379a5ee56b2c83168517b77b61b1ff65eadda"
+    },
+    {
+      "path": "godot/ham-rong/web/package.py",
+      "size_bytes": 2450,
+      "sha256": "8d44578736c6d740d87cc8012adb8b66857ce6a5d6879bbb20df62fe1ab2d59b"
+    }
+  ]
+}
