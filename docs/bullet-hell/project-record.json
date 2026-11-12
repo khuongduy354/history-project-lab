@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-11-12",
+  "project_name": "Đồ án lịch sử",
+  "repository": "https://github.com/khuongduy354/history-project-lab",
+  "current_concept": {
+    "status": "confirmed_by_owner",
+    "genre": "bullet_hell",
+    "theme": "wartime_cryptography",
+    "core_loop": [
+      "dodge_bullets",
+      "collect_content",
+      "decrypt_collected_content"
+    ],
+    "owner_quote": "nó sẽ kiểu bullet hell né đạn để nhặt nội dung và cần decrypt nó",
+    "source_url": "https://chatgpt.com/c/6ad4910b-45e0-83ec-ae89-c05080f085e7?messageId=f1b6bd99-7408-4c0e-adf5-048c8719302a",
+    "reconfirmed_at": "2026-11-12"
+  },
+  "implementation": {
+    "verified_source_in_repository": false,
+    "verified_runnable_build_in_repository": false,
+    "engine_confirmed": null,
+    "historical_setting_confirmed": null,
+    "cipher_confirmed": null,
+    "deadline_confirmed": null
+  },
+  "archive": {
+    "directory": "../../archieved",
+    "index": "../../archieved/README.md",
+    "previous_record": "../../archieved/2026-11-08-project-record/project-record.json",
+    "old_ideas_are_current_requirements": false
+  },
+  "source_document": {
+    "url": "https://docs.google.com/document/d/1F7wP0veP24-B8pHkzsXf-e1vFaXISziBDwwrEw2TluU/edit?tab=t.z36imvx75ewv#heading=h.6pt5t5c4x7gi",
+    "reread_in_this_update": false
+  },
+  "related_hosted_prototype": {
+    "url": "https://dien-bien-phu-khi-chua-biet-ket-qua.duy205365.chatgpt.site",
+    "kind": "transport_bullet_hell",
+    "available": true,
+    "crypto_decrypt_implementation_verified": false,
+    "source_in_repository": "../../archieved/experiments/2026-11-09-site",
+    "source_recovered": true
+  }
+}

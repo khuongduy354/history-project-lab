@@ -1,0 +1,707 @@
+{
+  "title": "Điện Biên Phủ 1954",
+  "version": "2.0",
+  "language": "vi",
+  "entry": "01",
+  "format": "choice_graph",
+  "historical_dossier": "dien-bien-phu.html",
+  "presentation": [
+    "Trước lựa chọn: chỉ hiển thị time, place, decision_level, before và ba trường action, possible_gain, price_or_risk của từng phương án.",
+    "Sau lựa chọn: hiện evidence_status, after_choice, historical_record và nguồn rồi chuyển đến next. Một bước vào nhánh giả định phải hiển thị nhãn PHÓNG TÁC xuyên suốt.",
+    "Người chơi quyết định từ phía Việt Minh. Động thái phía Pháp và diễn biến nhân đạo là bối cảnh.",
+    "Các kết phản thực tế chỉ là một diễn biến có thể viết, không khẳng định kết quả chắc chắn. Khi một nhánh đổi lịch chiến dịch, không nhập nó trở lại lịch thật."
+  ],
+  "nodes": {
+    "01": {
+      "time": "26/01/1954",
+      "place": "Hang Huổi He · Sở chỉ huy Việt Minh",
+      "decision_level": "Bộ Chỉ huy chiến dịch",
+      "title": "Hủy một kế hoạch đã triển khai?",
+      "anchor": "P26",
+      "sources": [
+        "PRE",
+        "HQ",
+        "POL"
+      ],
+      "before": {
+        "situation": "Hai tuần trước, tại Thẩm Púa, nơi đặt sở chỉ huy trước Huổi He, các đơn vị nhận kế hoạch đánh nhanh. Nay phòng tuyến Pháp đã vững hơn, còn phía Việt Minh mất nhiều thời gian hơn dự kiến để chuẩn bị. Chiến dịch đã được quyết định; điều phải chốt hôm nay là có giữ lịch đánh cũ hay không.",
+        "unknown": "Chưa ai biết nếu hoãn thì cần bao lâu mới sẵn sàng, hoặc hậu phương có duy trì nổi một chiến dịch dài.",
+        "question": "Giữ phương án ngắn ngày hay chấp nhận chuẩn bị lại?"
+      },
+      "choices": [
+        {
+          "action": "Giữ phương án đánh nhanh",
+          "possible_gain": "Còn cơ hội kết thúc sớm, tránh kéo dài gánh cung cấp.",
+          "price_or_risk": "Điều kiện từng khiến phương án có vẻ khả thi đã đổi; nếu nhận định cũ sai, không dễ lấy lại sức người đã dùng.",
+          "evidence_status": "Phương án từng tồn tại; việc tiếp tục thực hiện ở thời điểm này là giả định",
+          "next": "X01",
+          "after_choice": "Lệnh đánh vẫn giữ nguyên. Hết thời hạn ghi trong kế hoạch, tập đoàn cứ điểm vẫn đứng vững.",
+          "won": "Giữ được ngày xuất quân.",
+          "lost": "Mất cơ hội hoãn trước khi quân vào trận."
+        },
+        {
+          "action": "Hoãn tiến công, đổi sang đánh chắc, tiến chắc",
+          "possible_gain": "Có thời gian chuẩn bị cho tình hình thực tế thay vì ràng mình vào lịch cũ.",
+          "price_or_risk": "Phải làm lại một phần chuẩn bị và nuôi lực lượng lâu hơn; phía Pháp cũng có thêm thời gian.",
+          "evidence_status": "Quyết định đã thực hiện",
+          "next": "03",
+          "after_choice": "Lệnh đánh tháng 1 được thu lại. Trong hơn sáu tuần tiếp theo, bộ đội chuẩn bị lại trận địa, còn dân công tiếp tục đưa lương thực lên Điện Biên Phủ. Chiều 13/3, chiến dịch mới mở màn: trận đầu diễn ra ở Him Lam, phía đông bắc lòng chảo.",
+          "won": "Có thời gian chuẩn bị lại.",
+          "lost": "Phải nuôi quân lâu hơn; quân Pháp cũng có thêm thời gian củng cố."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Ngày 26/1, Võ Nguyên Giáp quyết định đổi phương châm. Đây là thay đổi cách thực hiện chiến dịch đã được Bộ Chính trị quyết định ngày 6/12, không phải hủy chiến dịch."
+      },
+      "marker": "Huổi He"
+    },
+    "X01": {
+      "time": "Sau 26/01 · thời gian giả định",
+      "place": "Mặt trận Điện Biên Phủ",
+      "decision_level": "Phản thực tế",
+      "title": "Khi ngày hẹn đã qua",
+      "anchor": "P26",
+      "sources": [
+        "PRE",
+        "HQ"
+      ],
+      "before": {
+        "situation": "Lệnh đánh nhanh đã đưa quân vào trận, nhưng ngày định kết thúc đã qua. Số gạo tính cho cả đợt nay chỉ đủ chia tiếp từng bữa. Muốn giữ quân ở lại, mặt trận phải xin thêm lương; muốn dừng, phải nhận rằng kế hoạch đầu tiên đã không đạt.",
+        "unknown": "Có thể lấy lại thời gian bằng một quyết định nữa hay không? Nguồn lịch sử không trả lời được.",
+        "question": "Giữ hạn kết thúc hay thừa nhận cần một kế hoạch khác?"
+      },
+      "choices": [
+        {
+          "action": "Chấm dứt đợt đánh ngắn, xin thời gian tổ chức lại",
+          "possible_gain": "Giữ được khả năng xét lại kế hoạch.",
+          "price_or_risk": "Phần sức đã dùng không quay lại cùng quyết định dừng.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E1",
+          "after_choice": "Đợt tiến công dừng lại. Các đơn vị còn sức được đưa về củng cố.",
+          "won": "Giữ được lực lượng còn lại.",
+          "lost": "Không đạt mục tiêu trong thời hạn đã giao."
+        },
+        {
+          "action": "Tiếp tục đến khi có kết quả đủ để báo cáo",
+          "possible_gain": "Có thể giữ nhịp chiến dịch nếu kết quả đến sớm.",
+          "price_or_risk": "Gánh nặng của việc chờ kết quả chuyển sang cả người ở mặt trận lẫn người cung cấp.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E2",
+          "after_choice": "Ngày hẹn kết thúc trôi qua. Đoàn dân công vừa về trạm đã nhận lượt vận chuyển mới.",
+          "won": "Duy trì được lực lượng ở mặt trận.",
+          "lost": "Dân công mất lượt nghỉ; kế hoạch ngắn ngày đổ vỡ."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Ngoài đời không có đợt tiến công cuối tháng 1 này. Không có cơ sở thống kê người chết hay xác suất thắng của nó."
+      },
+      "marker": "Hạn đánh nhanh"
+    },
+    "03": {
+      "time": "25–28/03/1954",
+      "place": "Mường Phăng · các đồi phía đông Mường Thanh",
+      "decision_level": "Đảng ủy và Bộ Chỉ huy chiến dịch",
+      "title": "Đợt tới nhắm vào đâu?",
+      "anchor": "D0328",
+      "sources": [
+        "N0325",
+        "N0327",
+        "N0328",
+        "N0330",
+        "N0315",
+        "N0316",
+        "N0317"
+      ],
+      "before": {
+        "situation": "Sau trận mở màn ở Him Lam, Việt Minh chiếm đồi Độc Lập ngày 15/3. Ngày 16/3, phía Bản Kéo tới nhận thương binh đã được băng bó. Hôm sau, khi có lệnh rút về Mường Thanh, đội hình Pháp ở Bản Kéo tan rã. Các cứ điểm phía bắc lần lượt mất, nhưng quân Pháp vẫn giữ trung tâm Mường Thanh cùng các đồi bảo vệ nó ở phía đông. Sau một tuần chuẩn bị, Bộ Chỉ huy Việt Minh họp bàn đợt tiến công tiếp theo.",
+        "unknown": "Không có bảo đảm rằng lấy được một đồi sẽ khiến các đồi khác cùng thất thủ.",
+        "question": "Mở đợt hai ở khu đồi phía đông hay kéo dài thời gian chuẩn bị?"
+      },
+      "choices": [
+        {
+          "action": "Mở đợt hai, lấy khu đồi phía đông làm trọng tâm",
+          "possible_gain": "Nếu giành được các cao điểm, khu trung tâm sẽ mất một phần quan trọng của hệ thống phòng thủ.",
+          "price_or_risk": "Phải chuyển từ nhiều ngày chuẩn bị sang giao tranh lớn; kết quả có thể khác nhau trên từng đồi.",
+          "evidence_status": "Quyết định đã thực hiện",
+          "next": "04",
+          "after_choice": "Chiều 30/3, đợt hai bắt đầu. Việt Minh giành được C1, một điểm cao phía đông Mường Thanh. Tin từ đồi A1 lại khác: sau một đêm giao tranh, hai bên vẫn giữ từng phần đồi.",
+          "won": "Giành được vị trí ở khu đồi phía đông.",
+          "lost": "Lực lượng bị hao hụt; A1 vẫn còn tranh chấp."
+        },
+        {
+          "action": "Kéo dài giai đoạn vây và củng cố trước khi mở đợt lớn",
+          "possible_gain": "Có thêm thời gian hoàn thiện công việc còn dở và cho đơn vị hồi sức.",
+          "price_or_risk": "Đối phương cũng được thêm thời gian; sức người và lương thực vẫn phải cung cấp mỗi ngày.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "X03",
+          "after_choice": "Ngày 30/3 qua đi, các đơn vị vẫn ở khu tập kết. Những đoàn gạo tiếp tục lên đường.",
+          "won": "Có thêm ngày củng cố lực lượng.",
+          "lost": "Quân Pháp giữ nguyên các cao điểm; hậu phương phải cấp thêm lương."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Hội nghị 25–27/3 dẫn tới mệnh lệnh ngày 28; đợt hai bắt đầu ngày 30. Không đồng nhất ngày họp, ngày ra văn bản và ngày thực hiện."
+      },
+      "marker": "Đồi phía đông",
+      "map": "ban-keo.svg"
+    },
+    "X03": {
+      "time": "Đầu tháng 4 · giả định",
+      "place": "Mặt trận và hậu phương",
+      "decision_level": "Phản thực tế",
+      "title": "Thời gian mua bằng gì?",
+      "anchor": "D0325",
+      "sources": [
+        "N0325",
+        "GOS"
+      ],
+      "before": {
+        "situation": "Vì đợt đánh ngày 30/3 chưa mở, các đơn vị có thêm ngày nghỉ nhưng vẫn phải ăn ngay tại nơi tập kết. Đến đầu tháng 4, những đoàn dân công lẽ ra được thay phiên vẫn đang chuyển gạo. Bây giờ, chờ thêm một tuần đồng nghĩa với việc phải giữ họ lại thêm một tuần nữa.",
+        "unknown": "Mỗi ngày chờ có đem lại một cải thiện thực sự hay chỉ chuyển chi phí từ phía trước về phía sau?",
+        "question": "Cam kết tiếp tục chờ hay thu hẹp yêu cầu của chiến dịch?"
+      },
+      "choices": [
+        {
+          "action": "Duy trì lực lượng, chấp nhận hậu phương phải gánh thêm",
+          "possible_gain": "Giữ khả năng mở đợt lớn về sau.",
+          "price_or_risk": "Các gia đình tiếp tục thiếu người và một ngày mới không tự tạo ra điều kiện tốt hơn.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E2",
+          "after_choice": "Các đơn vị ở lại. Chuyến hàng dự trữ trở thành chuyến hàng thường ngày.",
+          "won": "Giữ nguyên lực lượng tại mặt trận.",
+          "lost": "Hậu phương phải gánh thêm ngày công."
+        },
+        {
+          "action": "Giảm quy mô mục tiêu trước mắt để các đơn vị được nghỉ",
+          "possible_gain": "Dành lại một phần thời gian cho người đã làm việc liên tục.",
+          "price_or_risk": "Chấp nhận rằng kết quả gần hạn sẽ nhỏ hơn mục tiêu ban đầu.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E1",
+          "after_choice": "Mục tiêu trước mắt được thu hẹp. Những đơn vị đã làm việc liên tục được thay phiên.",
+          "won": "Quân và dân công được nghỉ.",
+          "lost": "Phải bỏ tiến độ đã cam kết."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Việc đổi lịch này là giả định. Tình thế A1 ngày 4/4 trong lịch thực phát sinh sau đợt đánh 30/3, nên nhánh này không nhảy ngang sang A1 như thể không có gì thay đổi."
+      },
+      "marker": "Chờ mở đợt hai"
+    },
+    "04": {
+      "time": "04/04/1954",
+      "place": "Đồi A1 và khu vực 105",
+      "decision_level": "Bộ Chỉ huy chiến dịch",
+      "title": "A1: đánh tiếp hay giữ phần đồi đã có?",
+      "anchor": "D0404",
+      "sources": [
+        "N0331",
+        "N0403",
+        "N0404"
+      ],
+      "before": {
+        "situation": "Sang ngày 31/3, báo cáo từ A1 cho biết đơn vị đánh đồi đã dùng cả lực lượng dự bị. Đến sáng 3/4, bộ đội phải bàn giao phần đồi đã chiếm cho đơn vị khác để về củng cố. Ở phía tây sân bay Mường Thanh, trận đánh cứ điểm 105 cũng chưa đạt mục tiêu. Trước mặt Bộ Chỉ huy lúc này là một cái giá rất cụ thể: muốn lấy nốt A1, những người vừa qua mấy đêm giao tranh sẽ phải đánh tiếp.",
+        "unknown": "Có thể lấy nốt A1 bằng cách tiếp tục ngay hay không? Không được dùng kết quả tháng 5 làm câu trả lời cho người ngày 4/4.",
+        "question": "Có đáng tiếp tục đánh để giành nốt A1 lúc này?"
+      },
+      "choices": [
+        {
+          "action": "Tạm dừng tiến công, giữ phần trận địa đã có",
+          "possible_gain": "Duy trì chỗ đứng trên đồi và dành thời gian củng cố lực lượng.",
+          "price_or_risk": "Pháp vẫn giữ phần còn lại; tạm dừng chưa giải quyết được A1.",
+          "evidence_status": "Quyết định đã thực hiện",
+          "next": "06",
+          "after_choice": "Lệnh dừng tới A1. Các đơn vị giữ phần đồi đã chiếm và củng cố trận địa. Phía Pháp vẫn giữ phần còn lại.",
+          "won": "Giữ được chỗ đứng và cho lực lượng thời gian hồi sức.",
+          "lost": "Chưa làm chủ toàn bộ A1."
+        },
+        {
+          "action": "Tiếp tục nhằm giành nốt A1 trong đợt này",
+          "possible_gain": "Nếu thành công, phía Việt Minh kiểm soát sớm một cao điểm quan trọng phía đông.",
+          "price_or_risk": "Lực lượng đã mệt; có thể chịu thêm tổn thất mà quyền kiểm soát quả đồi vẫn không đổi.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "X04",
+          "after_choice": "Cuộc đánh kéo dài thêm một đêm. Sáng ra, đường ranh vẫn nằm giữa đồi. Lúc bàn giao, số người còn đủ sức nhận ca đã ít đi.",
+          "won": "Giữ được phần đồi đang nắm.",
+          "lost": "Mất thêm sức quân mà không lấy thêm được đất."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Sau A1 và 105, Bộ Chỉ huy ra lệnh tạm dừng tiến công, giữ phần đã có. Đây không phải lệnh chấm dứt toàn bộ hoạt động ở mọi phía của lòng chảo."
+      },
+      "marker": "Đồi A1"
+    },
+    "X04": {
+      "time": "Sau 04/04 · giả định",
+      "place": "Phía đông Mường Thanh",
+      "decision_level": "Phản thực tế",
+      "title": "Cùng một đường ranh, một lực lượng khác",
+      "anchor": "D0404",
+      "sources": [
+        "N0331",
+        "N0404"
+      ],
+      "before": {
+        "situation": "Sau đêm đánh thêm ở A1, người nhận bàn giao vẫn thấy đường ranh nằm giữa đồi. Chỉ có danh sách trực là ngắn đi: nhiều người không còn đủ sức nhận lượt. Quyết định hôm nay khác hôm qua ở chỗ muốn giữ nguyên vị trí cũng đã cần người thay.",
+        "unknown": "Không ai có đủ chứng cứ để cam kết lần kế tiếp sẽ thành công chỉ vì lần vừa rồi đã tốn nhiều sức.",
+        "question": "Chấp nhận dừng muộn hay giữ nguyên mục tiêu lấy trọn đồi ngay?"
+      },
+      "choices": [
+        {
+          "action": "Dừng, ghi nhận cả tổn thất lẫn phần đồi đang giữ",
+          "possible_gain": "Có thể bảo toàn phần sức còn lại.",
+          "price_or_risk": "Đã trả một phần cái giá mà quyết định dừng ngày 4/4 trong lịch thực muốn tránh.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E4",
+          "after_choice": "Lệnh dừng cuối cùng cũng tới. Đơn vị sau phải nhận cùng phần đồi với ít người khỏe hơn.",
+          "won": "Chấm dứt đợt đánh không tiến triển.",
+          "lost": "Không lấy lại được lực lượng đã hao hụt trong đêm."
+        },
+        {
+          "action": "Giữ mục tiêu, chấp nhận dùng thêm thời gian và sức người",
+          "possible_gain": "Cơ hội làm thay đổi tình thế chưa mất hẳn.",
+          "price_or_risk": "Không có bảo đảm sẽ đổi được tổn thất lấy kết quả.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E5",
+          "after_choice": "Đợt đánh tiếp theo kết thúc. A1 vẫn bị chia đôi, đơn vị phải rút về củng cố.",
+          "won": "Giữ được phần đồi cũ.",
+          "lost": "Mất sức tiếp tục đợt đánh; mục tiêu lấy trọn A1 thất bại."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Tình huống báo cáo lần hai là hư cấu. Nguồn chỉ chứng thực đánh giá rủi ro và lệnh dừng đã thực sự được ban hành."
+      },
+      "marker": "Thêm một đêm"
+    },
+    "06": {
+      "time": "19/04/1954",
+      "place": "Bộ Chính trị · hậu phương và mặt trận",
+      "decision_level": "Quyết định cấp chiến lược",
+      "title": "Có tiếp tục huy động cho một chiến dịch dài?",
+      "anchor": "D0419",
+      "sources": [
+        "N0406",
+        "N0408",
+        "N0419",
+        "GOS",
+        "N0405"
+      ],
+      "before": {
+        "situation": "Sau khi tạm dừng ở A1, Việt Minh vẫn giữ vòng vây quanh Mường Thanh. Ngày 5/4, de Castries điện về Hà Nội xin thêm quân, lương thực và thuốc. Máy bay Pháp vẫn thả dù tiếp tế, nhưng đến ngày 16/4, các đường hào của Việt Minh đã nối qua sân bay. Vòng vây hẹp lại; chiến dịch vẫn chưa kết thúc. Ngày 19/4, Bộ Chính trị phải quyết định hậu phương sẽ tiếp tục góp người, góp lương đến đâu.",
+        "unknown": "Không ai có thể nói với người đi dân công chính xác ngày họ sẽ về.",
+        "question": "Tiếp tục dồn sức cho mục tiêu đã định hay giới hạn cam kết của hậu phương?"
+      },
+      "choices": [
+        {
+          "action": "Tái khẳng định đánh chắc, tiến chắc và tiếp tục chi viện",
+          "possible_gain": "Duy trì được nỗ lực chung khi chiến dịch đã dài hơn kế hoạch đầu tiên.",
+          "price_or_risk": "Nhiều địa phương còn phải góp người và của; một lời cam kết ở trung ương trở thành công việc thật ở từng nơi.",
+          "evidence_status": "Quyết định đã thực hiện",
+          "next": "07",
+          "after_choice": "Nghị quyết tiếp tục chi viện được phổ biến. Các địa phương huy động thêm sức người, sức của cho mặt trận.",
+          "won": "Duy trì được chiến dịch dài ngày.",
+          "lost": "Người và của từ hậu phương tiếp tục phải dành cho mặt trận."
+        },
+        {
+          "action": "Giới hạn phần huy động thêm và chấp nhận xét lại tiến độ",
+          "possible_gain": "Giảm phần gánh nặng mới chuyển về hậu phương.",
+          "price_or_risk": "Mục tiêu và lịch của mặt trận phải thay đổi nếu nguồn cung không tăng tương ứng.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E1",
+          "after_choice": "Phần huy động thêm được cắt lại. Mặt trận phải thu hẹp mục tiêu thay vì giữ nguyên lịch cũ.",
+          "won": "Giảm số lượt người và hàng huy động thêm.",
+          "lost": "Không giữ được tiến độ chiến dịch."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Nghị quyết ngày 19/4 tiếp tục phương châm và động viên chi viện. Game không gán phương án giới hạn huy động cho một đại biểu có thật."
+      },
+      "marker": "Hậu phương"
+    },
+    "07": {
+      "time": "29–30/04/1954",
+      "place": "Sở chỉ huy mặt trận",
+      "decision_level": "Bộ Chỉ huy chiến dịch",
+      "title": "Đã đủ cơ sở ấn định đợt ba chưa?",
+      "anchor": "D0430",
+      "sources": [
+        "N0425",
+        "N0429",
+        "N0430",
+        "N0501"
+      ],
+      "before": {
+        "situation": "Sau nghị quyết chi viện ngày 19/4, mặt trận nhận tiếp sức người và lương thực. Ngày 22/4, phía Pháp mất cứ điểm 206 gần sân bay, nhưng vẫn giữ khu chỉ huy Mường Thanh và một phần các đồi phía đông. Đến 29/4, các đơn vị Việt Minh báo đã sẵn sàng. Bộ Chỉ huy giờ phải ấn định lúc chuyển từ bao vây sang đợt tiến công mới.",
+        "unknown": "Không có báo cáo sẵn sàng nào bảo đảm tất cả vị trí sẽ đổi chủ cùng ngày.",
+        "question": "Ấn định đợt mới đầu tháng 5 hay kéo dài thế hiện tại?"
+      },
+      "choices": [
+        {
+          "action": "Thông báo đợt ba bắt đầu ngày 1/5",
+          "possible_gain": "Biến các báo cáo chuẩn bị thành một quyết định chung khi các đơn vị đã báo sẵn sàng.",
+          "price_or_risk": "Phải chấp nhận mở một đợt giao tranh mới; sẵn sàng không có nghĩa ít tổn thất.",
+          "evidence_status": "Quyết định đã thực hiện",
+          "next": "08",
+          "after_choice": "Đợt ba mở ngày 1/5. C1 đổi chủ; A1 còn phải chờ tới trận cuối.",
+          "won": "Giành được C1.",
+          "lost": "Chưa kết thúc được trận ở A1."
+        },
+        {
+          "action": "Lùi ngày mở đợt ba, đợi thêm bằng chứng về sức chịu đựng của đối phương",
+          "possible_gain": "Có thêm thời gian xét lại liệu mở đợt mới ngay có cần thiết.",
+          "price_or_risk": "Tổ chức phải nuôi quân thêm; bên kia vẫn có thể nhận viện binh, dân vẫn sống trong vùng chiến sự.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E7",
+          "after_choice": "Ngày 1/5 trôi qua mà đợt ba chưa mở. Khi phiên họp về Đông Dương bắt đầu, mặt trận chưa gửi được tin thắng trận từ Mường Thanh.",
+          "won": "Các đơn vị có thêm thời gian chuẩn bị.",
+          "lost": "Mất thời điểm đưa tin chiến thắng tới bàn đàm phán."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Ngày 30/4, Bộ Chỉ huy thông báo mốc mở đợt ba là ngày 1/5. Không có bằng chứng ở các nguồn dẫn rằng ngày ấy một cuộc bỏ phiếu hoãn đã diễn ra."
+      },
+      "marker": "Mở đợt ba"
+    },
+    "08": {
+      "time": "Chiều 07/05/1954",
+      "place": "Khu trung tâm Mường Thanh",
+      "decision_level": "Bộ Chỉ huy chiến dịch và các đơn vị tại mặt trận",
+      "title": "Khi tình thế thay đổi nhanh hơn lịch",
+      "anchor": "D0507",
+      "sources": [
+        "N0506",
+        "N0507",
+        "FR"
+      ],
+      "before": {
+        "situation": "Đợt ba đã lấy lại C1. Sau những ngày giao tranh tiếp theo, đến sáng 7/5 cả A1 và C2 cũng do Việt Minh kiểm soát. Chiều đến, một số vị trí gần cầu Mường Thanh đầu hàng. Bộ chỉ huy Pháp ở bên trong khu trung tâm vẫn còn đó. Tin từ phía nam, nơi quân Pháp còn đóng ở Hồng Cúm, lại chưa cho thấy giao tranh đã hết.",
+        "unknown": "Các tín hiệu đầu hàng cục bộ có phản ánh sự tan rã của toàn bộ khu trung tâm không?",
+        "question": "Chuyển ngay sang kết thúc trận ở trung tâm hay chờ xác nhận thêm?"
+      },
+      "choices": [
+        {
+          "action": "Nắm thời cơ kết thúc trận ở Mường Thanh ngay trong chiều",
+          "possible_gain": "Có thể chấm dứt giao tranh ở trung tâm khi khả năng chống giữ đã suy giảm.",
+          "price_or_risk": "Quyết định phải đưa ra khi tin từ các khu còn không đều; thắng ở trung tâm không có nghĩa Hồng Cúm cũng đã xong.",
+          "evidence_status": "Quyết định đã thực hiện",
+          "next": "EH",
+          "after_choice": "Chiều 7/5, bộ chỉ huy Pháp tại Mường Thanh bị bắt. Ở Hồng Cúm, giao tranh còn tiếp diễn về đêm.",
+          "won": "Kết thúc trận ở khu trung tâm.",
+          "lost": "Chưa thể cho toàn mặt trận ngừng chiến ngay trong chiều."
+        },
+        {
+          "action": "Chờ thêm xác nhận từ các khu trước khi quyết ở trung tâm",
+          "possible_gain": "Giảm nguy cơ đọc nhầm một dấu hiệu đầu hàng đơn lẻ thành kết quả toàn mặt trận.",
+          "price_or_risk": "Tình thế có thể lại đổi trong thời gian chờ; những người còn ở hai phía tiếp tục chịu rủi ro.",
+          "evidence_status": "Phương án giả định của tác giả",
+          "next": "E8",
+          "after_choice": "Lệnh chờ xác nhận giữ nguyên tới hết buổi chiều. Mường Thanh chưa ngã ngũ. Bản tin chiến thắng ngày 7/5 không được phát.",
+          "won": "Các báo cáo được đối chiếu trước khi phát tin.",
+          "lost": "Bỏ lỡ cơ hội kết thúc trận tại trung tâm trong chiều đó."
+        }
+      ],
+      "after_only": {
+        "historical_record": "Nhật ký Việt Nam ghi mốc 17 giờ 15 tại sở chỉ huy Pháp. Quân sử Pháp đặt đoạn kết của Isabelle sang ngày 8; cần luôn ghi rõ địa điểm đang nói tới."
+      },
+      "marker": "Mường Thanh"
+    }
+  },
+  "endings": {
+    "EH": {
+      "title": "Toàn thắng ở Điện Biên Phủ",
+      "status": "Lịch sử",
+      "closing": "Chiều 7/5, bộ chỉ huy Pháp ở Mường Thanh bị bắt. Tin chiến thắng rời lòng chảo trong khi Hồng Cúm còn giao tranh. Ngày 8/5, phiên toàn thể về Đông Dương bắt đầu ở Genève.",
+      "what_the_choice_cost": "Thắng trận không lập tức đưa người bị thương về nhà hay tự viết ra một thỏa thuận đình chiến.",
+      "compare_with_record": "Đêm 20–21/7 mới có các thỏa thuận đình chiến; giới tuyến quân sự được xác định là tạm thời.",
+      "sources": [
+        "N0507",
+        "FR",
+        "GEN",
+        "PHOTO",
+        "ARM",
+        "DECL"
+      ]
+    },
+    "E1": {
+      "title": "Lỡ hẹn xuất quân",
+      "status": "Ending phóng tác",
+      "closing": "Mục tiêu ban đầu bị thu hẹp. Lịch mới được gửi về hậu phương; những đoàn người vốn chờ ngày bàn giao phải ở lại thêm một lượt.",
+      "what_the_choice_cost": "Giữ được quyền tổ chức lại bằng cách thừa nhận quy mô hoặc thời hạn cũ không còn thực hiện được.",
+      "compare_with_record": "Trong lịch sử, sự điều chỉnh lớn về phương châm đã diễn ra ngày 26/1; các nhánh dẫn tới kết này diễn ra trong giả định khác.",
+      "sources": [
+        "PRE",
+        "HQ",
+        "N0419"
+      ],
+      "by_origin": {
+        "X01": [
+          "Dừng cuộc đánh tháng Giêng",
+          "Lệnh dừng được chuyển tới các đơn vị. Mục tiêu đánh nhanh không đạt; người ở lại phải chờ lực lượng củng cố, còn hậu phương nhận một yêu cầu tiếp tế dài hơn kế hoạch ban đầu."
+        ],
+        "X03": [
+          "Thu hẹp mục tiêu",
+          "Những đoàn dân công tới kỳ được bàn giao gánh hàng và về nghỉ. Mặt trận giảm yêu cầu trước mắt; các cao điểm định đánh trong đợt hai vẫn nằm ngoài tay Việt Minh."
+        ],
+        "06": [
+          "Lùi tiến độ chiến dịch",
+          "Hậu phương giữ lại được những lượt người chưa điều đi. Ở mặt trận, kế hoạch lập theo mức chi viện cũ phải sửa: các đơn vị không thể giữ nguyên cả mục tiêu lẫn ngày hoàn thành."
+        ]
+      }
+    },
+    "E2": {
+      "title": "Vỡ kế hoạch ngắn ngày",
+      "status": "Ending phóng tác",
+      "closing": "Chuyến gạo dành cho ngày trở về được mở ngay tại mặt trận. Chiến dịch kéo dài, còn mục tiêu đặt ra cho đợt đánh ngắn vẫn chưa đạt.",
+      "what_the_choice_cost": "Thời gian của chiến dịch được mua bằng thời gian của những người không có mặt trong phòng quyết định.",
+      "compare_with_record": "Sử liệu chứng minh gánh nặng huy động có thật, không chứng minh độ dài hay kết cục của chiến dịch giả định.",
+      "sources": [
+        "GOS",
+        "PRE"
+      ],
+      "by_origin": {
+        "X03": [
+          "Cái giá của việc chờ",
+          "Không mở đợt tiến công nhưng cũng không rút bớt quân, mặt trận phải giữ nguyên những chuyến gạo hằng ngày. Đến kỳ đổi phiên, dân công lại nhận một lượt đi mới. Thời gian nghỉ của đơn vị phía trước được trả bằng thời gian của những người ở phía sau."
+        ]
+      }
+    },
+    "E4": {
+      "title": "Dừng muộn một đêm",
+      "status": "Ending phóng tác",
+      "closing": "A1 vẫn bị chia đôi. Khi nhận lệnh dừng, đơn vị giữ được phần đồi cũ nhưng phải gọi người thay cho những người vừa kiệt sức.",
+      "what_the_choice_cost": "Dừng muộn giữ lại được một phần sức người, không trả lại được phần đã mất.",
+      "compare_with_record": "Lịch sử ghi lệnh tạm dừng ngày 4/4. Đêm đánh thêm và tổn thất của nó là giả định, không có số liệu.",
+      "sources": [
+        "N0331",
+        "N0404"
+      ]
+    },
+    "E5": {
+      "title": "Không lấy được A1",
+      "status": "Ending phóng tác",
+      "closing": "Đợt tiến công kết thúc mà đường ranh trên đồi không đổi. Lực lượng không còn đủ sức đánh tiếp. Đơn vị buộc phải dừng sau khi đã chịu thêm tổn thất.",
+      "what_the_choice_cost": "Duy trì một mục tiêu dù căn cứ để dự đoán thành công ngày càng yếu.",
+      "compare_with_record": "A1 trong lịch sử thực sự được kiểm soát vào sáng 7/5, sau quá trình rất khác. Không lấy ngày đó làm kết quả cho nhánh này.",
+      "sources": [
+        "N0404",
+        "N0507"
+      ]
+    },
+    "E7": {
+      "title": "Lỡ thời điểm ở Genève",
+      "status": "Ending phóng tác",
+      "closing": "Phiên họp về Đông Dương khai mạc khi đợt tiến công quyết định vẫn bị hoãn. Phái đoàn vào phòng họp mà không có tin chiến thắng từ Mường Thanh.",
+      "what_the_choice_cost": "Đổi ngày quân sự làm thay đổi thông tin người đàm phán có thể mang vào phòng; không cho phép tiên đoán một hiệp định khác.",
+      "compare_with_record": "Trong lịch sử, đợt ba mở ngày 1/5, Mường Thanh thất thủ ngày 7, phiên toàn thể về Đông Dương diễn ra ngày 8.",
+      "sources": [
+        "N0501",
+        "N0507",
+        "GEN"
+      ]
+    },
+    "E8": {
+      "title": "Mất thời cơ ở Mường Thanh",
+      "status": "Ending phóng tác",
+      "closing": "Buổi chiều khép lại trong lúc các đơn vị chờ xác nhận. Khu trung tâm chưa đầu hàng. Mục tiêu kết thúc trận trong ngày 7/5 thất bại.",
+      "what_the_choice_cost": "Được thêm độ chắc chắn về thông tin nhưng có thể mất khoảnh khắc kết thúc sớm giao tranh ở trung tâm.",
+      "compare_with_record": "Trong lịch thực, chiều 7/5 đã có kết quả tại Mường Thanh; Hồng Cúm vẫn phải đọc theo một dòng thời gian riêng.",
+      "sources": [
+        "N0507",
+        "FR"
+      ]
+    }
+  },
+  "sources": {
+    "ARM": {
+      "title": "FRUS XIII, phần 2 · Các thỏa thuận đình chiến",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v13p2/d1073",
+      "loc": "Văn kiện 1073, tr. 1860, ghi nhận các thỏa thuận riêng cho Việt Nam, Lào, Campuchia trong đêm 20–21/7.",
+      "kind": "Hồ sơ ngoại giao"
+    },
+    "DECL": {
+      "title": "Avalon, Yale Law School · Tuyên bố cuối cùng Genève",
+      "url": "https://avalon.law.yale.edu/20th_century/inch005.asp",
+      "loc": "Văn bản ngày 21/7/1954, đoạn 6–7: giới tuyến quân sự tạm thời và dự kiến tổng tuyển cử tháng 7/1956. Nội dung văn bản không bảo đảm nó được thi hành.",
+      "kind": "Văn bản đương thời"
+    },
+    "FR": {
+      "title": "Bộ Quốc phòng Pháp · Les Chemins de la mémoire, MC39",
+      "url": "https://www.cheminsdememoire.gouv.fr/sites/default/files/editeur/MC39.pdf",
+      "loc": "PDF, đoạn bắt đầu Le 1er mai và đoạn bilan ngay sau đó: Isabelle ngày 8/5 và cách thống kê tù binh. Đây là góc nhìn tưởng niệm của phía Pháp.",
+      "kind": "Tổng thuật quân sử"
+    },
+    "GEN": {
+      "title": "FRUS XVI · Lịch các phiên toàn thể và họp hẹp về Đông Dương",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v16/ch5subch3",
+      "loc": "Dòng May 8 và May 10. Phiên ngày 8 có Phạm Văn Đồng, Bidault và nhiều phái đoàn khác; đừng nhầm với ngày mở toàn thể hội nghị Genève.",
+      "kind": "Lịch ngoại giao"
+    },
+    "GOS": {
+      "title": "Christopher Goscha · The Collapsing Civil–Military Divide, 2018",
+      "url": "https://www.cambridge.org/core/books/abs/civilianization-of-war/collapsing-civilmilitary-divide-in-wars-of-decolonization-two-case-studies-from-the-indochina-war-19451954/BDD4445CE345F0CD780D04B516301512",
+      "loc": "Chương 4, tr. 82–99, Cambridge University Press, DOI 10.1017/9781108643542.005. Luận điểm dùng ở đây lấy từ phần Summary công khai, không gán một trang nội dung chưa đọc.",
+      "kind": "Nghiên cứu"
+    },
+    "HQ": {
+      "url": "https://btctdbp.svhttdl.dienbien.gov.vn/portal/pages/2020-5-8/Nhung-dau-moc-lich-su-cua-Chien-dich-Dien-Bien-Phu1olgi0pxgedr.aspx",
+      "title": "Bảo tàng Chiến thắng Điện Biên Phủ · Những dấu mốc lịch sử",
+      "loc": "Các đoạn Thẩm Púa, Huổi He, Mường Phăng. Dùng mốc địa điểm của bảo tàng; bản tóm lược đã được lập chỉ mục.",
+      "kind": "Hồ sơ di tích"
+    },
+    "IC1": {
+      "title": "Kho ảnh ICRC · Xe cứu thương và máy bay tại Điện Biên Phủ",
+      "url": "https://avarchives.icrc.org/Picture/11700",
+      "loc": "Phiếu V-P-HIST-03070-06; ngày 17/3/1954. Chú thích về sân bay và phương tiện chuyển thương, không xác nhận số người đã rời sân bay.",
+      "kind": "Ảnh lưu trữ"
+    },
+    "N0315": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 15/03/1954",
+      "url": "https://special.nhandan.vn/ngay-15-3-1954-ta-chiem-linh-cum-cu-diem-doc-lap/index.html",
+      "loc": "Mục ngày 15/03 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0316": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 16/03/1954",
+      "url": "https://special.nhandan.vn/phapnhanranhungnhuocdiemkhokhacphuc/index.html",
+      "loc": "Mục ngày 16/03 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0317": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 17/03/1954",
+      "url": "https://special.nhandan.vn/Chien-dich-Dien-Bien-Phu-ngay-17-03-1954/index.html",
+      "loc": "Mục ngày 17/03 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0325": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 25/03/1954",
+      "url": "https://special.nhandan.vn/ngay-dot-tien-cong-thu-25-3-1954/index.html",
+      "loc": "Mục ngày 25/03 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0327": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 27/03/1954",
+      "url": "https://special.nhandan.vn/sanbaymuongthanhteliet-ngay27031954/index.html",
+      "loc": "Mục ngày 27/03 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0328": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 28/03/1954",
+      "url": "https://special.nhandan.vn/ngay28/3/1954/index.html",
+      "loc": "Mục ngày 28/03 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0330": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 30/03/1954",
+      "url": "https://special.nhandan.vn/dot-tien-cong-thu-2-Dien-Bien-Phu/index.html",
+      "loc": "Mục ngày 30/03 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0331": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 31/03/1954",
+      "url": "https://special.nhandan.vn/ngay31/3/1954-cacdonvi-chuanbidanhdich/index.html",
+      "loc": "Mục ngày 31/03 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0403": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 03/04/1954",
+      "url": "https://special.nhandan.vn/bangiaotrandiaA1_tiencongcudiem105/index.html",
+      "loc": "Mục ngày 03/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0404": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 04/04/1954",
+      "url": "https://special.nhandan.vn/ngay4/4/1954/index.html",
+      "loc": "Mục ngày 04/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0405": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 05/04/1954",
+      "url": "https://special.nhandan.vn/ngay05041954_decastries_guidienyeucautangvien/index.html",
+      "loc": "Mục ngày 05/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0406": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 06/04/1954",
+      "url": "https://special.nhandan.vn/06-04-1954-hoi-nghi-so-ket-dot-2/index.html",
+      "loc": "Mục ngày 06/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0408": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 08/04/1954",
+      "url": "https://special.nhandan.vn/ngay-8-4-1954-Chien-dich-Dien-Bien-Phu/index.html",
+      "loc": "Mục ngày 08/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0413": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 13/04/1954",
+      "url": " https://special.nhandan.vn/Ngay-13-4-1954-Bo-Tong-tham-muu-ra-chi-thi-xay-dung-cong-su-phong-ngu/index.html",
+      "loc": "Mục ngày 13/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0419": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 19/04/1954",
+      "url": "https://special.nhandan.vn/19-4-1954-chien-dich-Dien-Bien-Phu/index.html",
+      "loc": "Mục ngày 19/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0425": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 25/04/1954",
+      "url": "https://special.nhandan.vn/25-04-1954-phap-nem-bom-Noong-Nhai/index.html",
+      "loc": "Mục ngày 25/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0428": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 28/04/1954",
+      "url": "https://special.nhandan.vn/tha-du-cuu-vien-chi-la-con-so-khong/index.html",
+      "loc": "Mục ngày 28/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0429": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 29/04/1954",
+      "url": "https://special.nhandan.vn/ngay-29-4-1954-quan-ta-buoc-vao-dot-tien-cong-thu/index.html",
+      "loc": "Mục ngày 29/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0430": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 30/04/1954",
+      "url": "https://special.nhandan.vn/ngay3041954_bochihuymattranthongbaodentungdonvi/index.html",
+      "loc": "Mục ngày 30/04 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0501": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 01/05/1954",
+      "url": "https://special.nhandan.vn/dottiencongthu3-chiendichbatdau/index.html",
+      "loc": "Mục ngày 01/05 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0506": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 06/05/1954",
+      "url": "https://special.nhandan.vn/ngay-6/5/1954-quan-ta-lam-chu-cac-cu-diem-A1-C2/index.html",
+      "loc": "Mục ngày 06/05 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "N0507": {
+      "title": "Nhân Dân · Nhật ký chiến dịch, 07/05/1954",
+      "url": "https://special.nhandan.vn/ngay-7-5-1954-chien-dich-Dien-Bien-Phu/index.html",
+      "loc": "Mục ngày 07/05 của bộ 56 ngày; đối chiếu toàn văn dưới phần Diễn tiến chiến dịch tại dienbienphu.nhandan.vn nếu liên kết chuyên đề đổi.",
+      "kind": "Biên niên tái dựng"
+    },
+    "PHOTO": {
+      "title": "ECPAD · René Adrian, thương binh tới Luang Prabang",
+      "url": "https://imagesdefense.gouv.fr/fr/arrivee-de-grands-blesses-de-dien-bien-phu-sur-le-terrain-d-aviation-de-luang-prabang-laos-description-en-cours-3.html",
+      "loc": "Phiếu LAOS 54-49 R10, ngày 19/5/1954. Xuất xứ SPI; phần chú giải mô tả thỏa thuận di tản thương binh nặng. Chỉ dẫn liên kết, không tái sử dụng ảnh.",
+      "kind": "Ảnh lưu trữ"
+    },
+    "POL": {
+      "title": "Tư liệu Văn kiện Đảng · Chiến thắng lịch sử Điện Biên Phủ",
+      "url": "https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/chien-thang-lich-su-dien-bien-phu-751954-3368?categoryId=102000101",
+      "loc": "Đoạn ngày 6/12/1953: cấp quyết định và vai trò kép của Võ Nguyên Giáp. Bài biên soạn, không phải bản chụp biên bản họp.",
+      "kind": "Hồ sơ sự kiện"
+    },
+    "PRE": {
+      "title": "Cơ quan quản lý tài nguyên · Đông Xuân 1953–1954",
+      "url": "https://dmrv.mae.gov.vn/Pages/chi-tiet-tin-tuc.aspx?ItemID=1411",
+      "loc": "Các đoạn có ngày 29/12, 14/1 và thay đổi phương châm. Dùng để phân biệt dự kiến và mệnh lệnh.",
+      "kind": "Tổng thuật"
+    }
+  }
+}
