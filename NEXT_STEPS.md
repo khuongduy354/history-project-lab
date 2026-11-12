@@ -2,6 +2,10 @@
 
 Danh sách này mô tả khoảng trống của hồ sơ, không tự đặt deadline hay khẳng định các bước đã được làm.
 
+## Việc đã dừng
+
+- Tìm/khôi phục source cũ của demo 3D Điện Biên Phủ: chủ dự án đã yêu cầu dừng ngày 08/11/2026. Khoảng trống source vẫn được ghi nhận, không phải việc đang chờ tiếp tục.
+
 ## Ưu tiên
 
 - [ ] Nhận diện đúng “demo 1” bằng file hoặc URL và phiên bản.

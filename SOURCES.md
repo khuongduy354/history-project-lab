@@ -22,6 +22,12 @@ Thông tin về tên/kích thước file đã được ghi nhận trước đây
 
 Đây là yêu cầu tập hợp tài liệu hiện có. Repo không mặc định việc chốt chủ đề, phát hành công khai, mời người khác hoặc viết lại một game hoàn chỉnh.
 
+### SRC-004 · Đính chính về demo 3D, ngày 08/11/2026
+
+Chủ dự án hỏi lại code của cảnh Điện Biên Phủ trước đó. Trong cùng cuộc trao đổi, trợ lý báo tìm được video demo 3D nhưng chưa tìm được project/source hoặc xác định engine; chủ dự án cho biết không còn source rồi yêu cầu “vứt source cũ đi”. Trợ lý xác nhận dừng tìm.
+
+Đây là hồ sơ trao đổi và báo cáo tìm kiếm trước đây, không phải kiểm chứng lại byte video hay chứng minh Godot là engine. Lần sửa tài liệu ngày 12/11/2026 chỉ sửa cách ghi trạng thái demo; không khôi phục hoặc tạo lại source, không sao chép video, không chứng nhận nội dung lịch sử.
+
 ## B. Nguồn sử học
 
 **Chưa có nguồn sử học cụ thể được kiểm chứng trong bộ tài liệu này.** Không có tên sách, số trang, trích dẫn lưu trữ hay liên kết tư liệu được thêm vào chỉ vì nghe có vẻ phù hợp.

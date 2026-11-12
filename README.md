@@ -1,6 +1,6 @@
 # Đồ án lịch sử · Project lab
 
-Kho tập hợp ý tưởng, phản hồi demo, thí nghiệm và những chỗ còn thiếu của đồ án lịch sử. Cập nhật: **08/11/2026**.
+Kho tập hợp ý tưởng, phản hồi demo, thí nghiệm và những chỗ còn thiếu của đồ án lịch sử. Cập nhật hồ sơ demo: **12/11/2026**.
 
 ## Hướng đang theo
 
@@ -29,7 +29,7 @@ Video tham khảo do chủ dự án cung cấp. Đây là inspiration, không ph
 ## Mức hoàn thiện
 
 - Đã gom các ý tưởng và phản hồi có bằng chứng, giữ nguyên nguồn và phân biệt ý của người dùng với gợi ý trước đây.
-- **Chưa có mã nguồn game hoặc demo chạy được trong repo.** Đây là bản lưu hồ sơ dự án, không phải bản game đã hoàn thiện.
+- **Chưa có mã nguồn game hoặc demo chạy được trong repo.** Điều này không có nghĩa là dự án chưa từng có demo: trao đổi ngày 08/11/2026 đã ghi nhận một video demo 3D Điện Biên Phủ trước đó, nhưng chưa khôi phục được project/source hoặc xác định engine. Chủ dự án đã yêu cầu dừng tìm source cũ; xem [EXP-004](EXPERIMENTS.md#exp-004--top-down-chuyển-động-và-3d-low-poly). Đây là bản lưu hồ sơ dự án, không phải bản game đã hoàn thiện.
 - Có thông tin về `demo_quet_qr_ban_do.mp4` từ nhánh map/QR cũ; chưa lấy được file để đưa vào repo. Tên “demo 1” trong phản hồi gần đây chưa gắn được với file hoặc URL cụ thể.
 - Chưa có bộ nguồn sử học đã kiểm tra đến trang/đoạn. Repo không tự điền diễn biến chiến dịch, lời thoại hay chuỗi hành động chưa được xác thực.
 
